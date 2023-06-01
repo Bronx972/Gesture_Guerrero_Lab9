@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Gesture_Guerrero"
+             x:Class="Gesture_Guerrero.PanDemo">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <local:PanContainer>
+                <Image Source="https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg" WidthRequest="300" HeightRequest="768" />
+            </local:PanContainer>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
